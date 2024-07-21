@@ -5,7 +5,7 @@ import { Notes, Search, Tags } from "@routes"
 
 const app = express();
 
-app.get("/", (_: Request, res: Response): void => {
+app.get("/", (_, res: Response): void => {
     res.send("hello world")
 })
 
